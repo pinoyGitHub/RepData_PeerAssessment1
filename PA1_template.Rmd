@@ -1,4 +1,4 @@
-JHU on Coursera<br>
+<p>JHU on Coursera<br>
 Reproducible Research Peer Assessment 1
 ====================================================================================
 Loading and preprocessing the data. Show any code that is needed to:<br>
