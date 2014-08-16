@@ -7,18 +7,7 @@ Loading and preprocessing the data. Show any code that is needed to:<br>
 
 
 ```r
-# download and unzip the the file 
 # Data Source: https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip
-fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
-download.file(fileUrl, destfile = "Dataset.zip")
-```
-
-```
-## Error: unsupported URL scheme
-```
-
-```r
-unzip("Dataset.zip")
 
 # use ggplot2 library
 
