@@ -6,6 +6,8 @@ Loading and preprocessing the data. Show any code that is needed to:<br>
 2.Process/transform the data (if necessary) into a format suitable for your analysis
 
 
+
+
 ```r
 # Data Source: https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip
 
@@ -227,13 +229,3 @@ qplot(interval, steps, data=table_interval_steps_imputed, geom=c("line"), xlab="
 ```
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
-
-```r
-#close the device
-dev.off()
-```
-
-```
-## null device 
-##           1
-```
